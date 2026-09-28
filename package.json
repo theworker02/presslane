@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/presslane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Press identifiers and lane tokens for idempotent workflows.",
+  "bin": {
+    "presslane": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/presslane.git"
+  },
+  "homepage": "https://theworker02.github.io/presslane/",
+  "keywords": [
+    "press",
+    "lane",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
